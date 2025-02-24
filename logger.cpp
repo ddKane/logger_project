@@ -50,6 +50,7 @@ void Logger::logMessage(LogLevel level, const std::string& message)
     logFile_ << "[" << timeStr << "] "
              << "[" << levelStr << "]: "
              << message << std::endl;
+	
 }
 
 std::string Logger::getCurrentTime()
